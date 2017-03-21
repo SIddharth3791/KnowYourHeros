@@ -8,20 +8,41 @@
 
 /* Begin PBXBuildFile section */
 		1F75E4E01E7FABC100C1CFF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F75E4DF1E7FABC100C1CFF2 /* AppDelegate.swift */; };
-		1F75E4E21E7FABC100C1CFF2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F75E4E11E7FABC100C1CFF2 /* ViewController.swift */; };
+		1F75E4E21E7FABC100C1CFF2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F75E4E11E7FABC100C1CFF2 /* LoginViewController.swift */; };
 		1F75E4E51E7FABC100C1CFF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F75E4E31E7FABC100C1CFF2 /* Main.storyboard */; };
 		1F75E4E71E7FABC100C1CFF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F75E4E61E7FABC100C1CFF2 /* Assets.xcassets */; };
 		1F75E4EA1E7FABC100C1CFF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F75E4E81E7FABC100C1CFF2 /* LaunchScreen.storyboard */; };
+		1F75E4F21E7FAD2800C1CFF2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1F75E4F11E7FAD2800C1CFF2 /* GoogleService-Info.plist */; };
+		1F75E4FD1E7FB09200C1CFF2 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F75E4F91E7FB09200C1CFF2 /* CustomTextField.swift */; };
+		1F75E4FE1E7FB09200C1CFF2 /* CustomeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F75E4FA1E7FB09200C1CFF2 /* CustomeButton.swift */; };
+		1F75E4FF1E7FB09200C1CFF2 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F75E4FB1E7FB09200C1CFF2 /* Card.swift */; };
+		1F75E5001E7FB09200C1CFF2 /* Card.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F75E4FC1E7FB09200C1CFF2 /* Card.xib */; };
+		1F75E5031E7FB0D200C1CFF2 /* AnimationEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F75E5021E7FB0D200C1CFF2 /* AnimationEngine.swift */; };
+		1F75E5061E7FB0E200C1CFF2 /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F75E5041E7FB0E200C1CFF2 /* CardViewController.swift */; };
+		1F75E5071E7FB0E200C1CFF2 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F75E5051E7FB0E200C1CFF2 /* SignUpViewController.swift */; };
+		FED4670E4C5ADF848A13FB70 /* Pods_KnowYourHeros.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD0A6CEDA0784B756F7F6B46 /* Pods_KnowYourHeros.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1F75E4DC1E7FABC100C1CFF2 /* KnowYourHeros.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KnowYourHeros.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F75E4DF1E7FABC100C1CFF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1F75E4E11E7FABC100C1CFF2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1F75E4E11E7FABC100C1CFF2 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		1F75E4E41E7FABC100C1CFF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1F75E4E61E7FABC100C1CFF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F75E4E91E7FABC100C1CFF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1F75E4EB1E7FABC100C1CFF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F75E4F11E7FAD2800C1CFF2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1F75E4F31E7FADDC00C1CFF2 /* KnowYourHeros-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KnowYourHeros-Bridging-Header.h"; sourceTree = "<group>"; };
+		1F75E4F91E7FB09200C1CFF2 /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		1F75E4FA1E7FB09200C1CFF2 /* CustomeButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomeButton.swift; sourceTree = "<group>"; };
+		1F75E4FB1E7FB09200C1CFF2 /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		1F75E4FC1E7FB09200C1CFF2 /* Card.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Card.xib; sourceTree = "<group>"; };
+		1F75E5021E7FB0D200C1CFF2 /* AnimationEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationEngine.swift; sourceTree = "<group>"; };
+		1F75E5041E7FB0E200C1CFF2 /* CardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
+		1F75E5051E7FB0E200C1CFF2 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		39329F289CBAE6A271654A2F /* Pods-KnowYourHeros.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KnowYourHeros.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KnowYourHeros/Pods-KnowYourHeros.debug.xcconfig"; sourceTree = "<group>"; };
+		CA439BBC54562999CADC2010 /* Pods-KnowYourHeros.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KnowYourHeros.release.xcconfig"; path = "Pods/Target Support Files/Pods-KnowYourHeros/Pods-KnowYourHeros.release.xcconfig"; sourceTree = "<group>"; };
+		FD0A6CEDA0784B756F7F6B46 /* Pods_KnowYourHeros.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KnowYourHeros.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FED4670E4C5ADF848A13FB70 /* Pods_KnowYourHeros.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +62,8 @@
 			children = (
 				1F75E4DE1E7FABC100C1CFF2 /* KnowYourHeros */,
 				1F75E4DD1E7FABC100C1CFF2 /* Products */,
+				6E84EB7EC31583C048104DC0 /* Pods */,
+				3846881C1642FFF0CEB77948 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +78,64 @@
 		1F75E4DE1E7FABC100C1CFF2 /* KnowYourHeros */ = {
 			isa = PBXGroup;
 			children = (
+				1F75E5011E7FB0BB00C1CFF2 /* Util */,
+				1F75E4F81E7FB07A00C1CFF2 /* View */,
+				1F75E4F71E7FB07000C1CFF2 /* Controller */,
 				1F75E4DF1E7FABC100C1CFF2 /* AppDelegate.swift */,
-				1F75E4E11E7FABC100C1CFF2 /* ViewController.swift */,
 				1F75E4E31E7FABC100C1CFF2 /* Main.storyboard */,
 				1F75E4E61E7FABC100C1CFF2 /* Assets.xcassets */,
 				1F75E4E81E7FABC100C1CFF2 /* LaunchScreen.storyboard */,
 				1F75E4EB1E7FABC100C1CFF2 /* Info.plist */,
+				1F75E4F11E7FAD2800C1CFF2 /* GoogleService-Info.plist */,
+				1F75E4F31E7FADDC00C1CFF2 /* KnowYourHeros-Bridging-Header.h */,
 			);
 			path = KnowYourHeros;
+			sourceTree = "<group>";
+		};
+		1F75E4F71E7FB07000C1CFF2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1F75E5041E7FB0E200C1CFF2 /* CardViewController.swift */,
+				1F75E5051E7FB0E200C1CFF2 /* SignUpViewController.swift */,
+				1F75E4E11E7FABC100C1CFF2 /* LoginViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		1F75E4F81E7FB07A00C1CFF2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1F75E4F91E7FB09200C1CFF2 /* CustomTextField.swift */,
+				1F75E4FA1E7FB09200C1CFF2 /* CustomeButton.swift */,
+				1F75E4FB1E7FB09200C1CFF2 /* Card.swift */,
+				1F75E4FC1E7FB09200C1CFF2 /* Card.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		1F75E5011E7FB0BB00C1CFF2 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				1F75E5021E7FB0D200C1CFF2 /* AnimationEngine.swift */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		3846881C1642FFF0CEB77948 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD0A6CEDA0784B756F7F6B46 /* Pods_KnowYourHeros.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6E84EB7EC31583C048104DC0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				39329F289CBAE6A271654A2F /* Pods-KnowYourHeros.debug.xcconfig */,
+				CA439BBC54562999CADC2010 /* Pods-KnowYourHeros.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +145,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1F75E4EE1E7FABC100C1CFF2 /* Build configuration list for PBXNativeTarget "KnowYourHeros" */;
 			buildPhases = (
+				CCA3221481DBA310C2338F2A /* [CP] Check Pods Manifest.lock */,
 				1F75E4D81E7FABC100C1CFF2 /* Sources */,
 				1F75E4D91E7FABC100C1CFF2 /* Frameworks */,
 				1F75E4DA1E7FABC100C1CFF2 /* Resources */,
+				490EF12144BCA741ADBD164F /* [CP] Embed Pods Frameworks */,
+				833D0536E3E96021D889816C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +173,8 @@
 				TargetAttributes = {
 					1F75E4DB1E7FABC100C1CFF2 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = X33N5HMJNJ;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -124,6 +203,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F75E4EA1E7FABC100C1CFF2 /* LaunchScreen.storyboard in Resources */,
+				1F75E5001E7FB09200C1CFF2 /* Card.xib in Resources */,
+				1F75E4F21E7FAD2800C1CFF2 /* GoogleService-Info.plist in Resources */,
 				1F75E4E71E7FABC100C1CFF2 /* Assets.xcassets in Resources */,
 				1F75E4E51E7FABC100C1CFF2 /* Main.storyboard in Resources */,
 			);
@@ -131,13 +212,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		490EF12144BCA741ADBD164F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KnowYourHeros/Pods-KnowYourHeros-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		833D0536E3E96021D889816C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KnowYourHeros/Pods-KnowYourHeros-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CCA3221481DBA310C2338F2A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1F75E4D81E7FABC100C1CFF2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F75E4E21E7FABC100C1CFF2 /* ViewController.swift in Sources */,
+				1F75E4E21E7FABC100C1CFF2 /* LoginViewController.swift in Sources */,
+				1F75E5061E7FB0E200C1CFF2 /* CardViewController.swift in Sources */,
+				1F75E5071E7FB0E200C1CFF2 /* SignUpViewController.swift in Sources */,
 				1F75E4E01E7FABC100C1CFF2 /* AppDelegate.swift in Sources */,
+				1F75E5031E7FB0D200C1CFF2 /* AnimationEngine.swift in Sources */,
+				1F75E4FF1E7FB09200C1CFF2 /* Card.swift in Sources */,
+				1F75E4FE1E7FB09200C1CFF2 /* CustomeButton.swift in Sources */,
+				1F75E4FD1E7FB09200C1CFF2 /* CustomTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,24 +391,33 @@
 		};
 		1F75E4EF1E7FABC100C1CFF2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39329F289CBAE6A271654A2F /* Pods-KnowYourHeros.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = X33N5HMJNJ;
 				INFOPLIST_FILE = KnowYourHeros/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.SiddharthPatel.KnowYourHeros;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "KnowYourHeros/KnowYourHeros-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		1F75E4F01E7FABC100C1CFF2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA439BBC54562999CADC2010 /* Pods-KnowYourHeros.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = X33N5HMJNJ;
 				INFOPLIST_FILE = KnowYourHeros/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.SiddharthPatel.KnowYourHeros;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "KnowYourHeros/KnowYourHeros-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -297,6 +441,7 @@
 				1F75E4F01E7FABC100C1CFF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
